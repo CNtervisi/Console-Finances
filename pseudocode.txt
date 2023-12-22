@@ -8,7 +8,7 @@ Declare variables to hold data:
 - greatest decrease in profit/losses
 - date of greatest decrease
 
-//Need to use a 'for' loop here to go over each month in fincances. 
+//I need to use a for loop here to go over each month in fincances. 
 
 Go through each month in finances:
 - Get date and profit/losses for the month
