@@ -1,0 +1,34 @@
+Declare variables to hold data:
+- total number of months
+- total profit/losses
+- previous month profit/losses
+- total change in profit/losses from previous month to current month
+- greatest increase in profit/losses
+- date of greatest increase
+- greatest decrease in profit/losses
+- date of greatest decrease
+
+//Need to use a 'for' loop here to go over each month in fincances. 
+
+Go through each month in finances:
+- Get date and profit/losses for the month
+- Increase total number of months by 1
+- Add profit/losses to total profit/losses
+If it's not the first month:
+- Calculate change in profit/losses
+- Add change to total change in profit/losses
+If change is greater than greatest:
+- Increase value then update greatest increase and its date
+If change is less than greatest decrease:
+- Update greatest decrease and its date
+- Remember current profit/losses for the next month
+
+Calculate average change in profit/losses
+
+Display the financial analysis in web browser console
+Things to display in console:
+- Total months in finances array 
+- Net total of profit/losses over the entire period
+- Averge change in profit/losses over the entire period
+- Greatest increase in profit/losses with date and ammount
+- Greatest decrease in profit/losses with date and ammount
