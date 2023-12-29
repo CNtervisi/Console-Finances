@@ -10,7 +10,7 @@ On the inspect panel click, the suer will need to click on the **Console** windo
 
 Here is a screenshot of the console output:
 
-![alt"console-screenshot"](../Console-Finances/images/console-screenshot.jpg)
+![alt"console-screenshot"](./images/console-screenshot.jpg)
 
 ## License
 This project is licensed under the MIT License. See the [license](./LICENSE) file for more details.
