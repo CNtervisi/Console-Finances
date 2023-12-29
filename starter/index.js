@@ -99,7 +99,7 @@ let greatestDecrease = 0;
 let greatestDecreaseDate = "";
 
 // Looping through the length of the finances array and icrement by one each time the loop runs.
-for (let i = 0; i < finances.length; i++) {
+for (let i = 0; i < finances.length; i++){
   // Exctract the date and profit/losses for the current month on each iteration.
   let date = finances[i][0];
   let profitLosses = finances[i][1];
@@ -108,16 +108,16 @@ for (let i = 0; i < finances.length; i++) {
   totalMonths++;
   totalProfitLosses += profitLosses;
 
-  if (totalMonths > 1) {
+  if (totalMonths > 1){
     let change = profitLosses - previousProfitLosses;
     totalChange += change;
 
-    if (change > greatestIncrease) {
+    if (change > greatestIncrease){
       greatestIncrease = change;
       greatestIncreaseDate = date;
     }
 
-    if (change < greatestDecrease) {
+    if (change < greatestDecrease){
       greatestDecrease = change;
       greatestDecreaseDate = date;
     }
@@ -134,9 +134,5 @@ console.log("----------------");
 console.log(`Total Months: ${totalMonths}`);
 console.log(`Total: $${totalProfitLosses}`);
 console.log(`Average Change: ${averageChange}`);
-console.log(
-  `Greatest Increase in Profits/Losses: ${greatestIncreaseDate} ($${greatestIncrease})`
-);
-console.log(
-  `Greatest Decrease in Profits/Losses: ${greatestDecreaseDate} ($${greatestDecrease})`
-);
+console.log(`Greatest Increase in Profits/Losses: ${greatestIncreaseDate} ($${greatestIncrease})`);
+console.log(`Greatest Decrease in Profits/Losses: ${greatestDecreaseDate} ($${greatestDecrease})`);
