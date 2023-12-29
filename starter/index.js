@@ -104,7 +104,7 @@ for (let i = 0; i < finances.length; i++) {
   let date = finances[i][0];
   let profitLosses = finances[i][1];
 
-// Updating totalMonths and totalProfitLosses and using concatenation to add them.
+  // Updating totalMonths and totalProfitLosses and using concatenation to add them.
   totalMonths++;
   totalProfitLosses += profitLosses;
 
@@ -134,7 +134,9 @@ console.log("----------------");
 console.log(`Total Months: ${totalMonths}`);
 console.log(`Total: $${totalProfitLosses}`);
 console.log(`Average Change: ${averageChange}`);
-console.log(`Greatest Increase in Profits/Losses: ${greatestIncreaseDate} ($${greatestIncrease})`
+console.log(
+  `Greatest Increase in Profits/Losses: ${greatestIncreaseDate} ($${greatestIncrease})`
 );
-console.log(`Greatest Decrease in Profits/Losses: ${greatestDecreaseDate} ($${greatestDecrease})`
+console.log(
+  `Greatest Decrease in Profits/Losses: ${greatestDecreaseDate} ($${greatestDecrease})`
 );
