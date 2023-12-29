@@ -8,6 +8,8 @@ To use this application the user will have to right-click anywhere on the webpag
 
 On the inspect panel click, the suer will need to click on the **Console** window to view the output of the code.
 
+You can visit the website by clicking on this [LINK](https://cntervisi.github.io/Console-Finances/).
+
 Here is a screenshot of the console output:
 
 ![alt"console-screenshot"](./images/console-screenshot.jpg)
